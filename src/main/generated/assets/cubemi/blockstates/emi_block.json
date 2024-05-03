@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "cubemi:block/emi_block"
+    }
+  }
+}

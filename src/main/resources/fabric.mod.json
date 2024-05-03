@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "cubemi",
+	"version": "${version}",
+	"name": "CubEmi",
+	"description": "I am bored",
+	"authors": [
+		"claymorwan"
+	],
+	"contact": {
+		"homepage": "https://github.com/claymorwan/CubEmi",
+		"sources": "https://github.com/claymorwan/CubEmi"
+	},
+	"license": "MIT",
+	"icon": "assets/cubemi/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.claymorwan.cubemi.CubEmi"
+		],
+		"client": [
+			"net.claymorwan.cubemi.CubEmiClient"
+		],
+		"fabric-datagen": [
+			"net.claymorwan.cubemi.CubEmiDataGenerator"
+		]
+	},
+	"mixins": [
+		"cubemi.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.11",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
