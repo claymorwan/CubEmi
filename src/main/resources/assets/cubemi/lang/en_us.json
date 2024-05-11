@@ -1,5 +1,11 @@
 {
   "block.cubemi.emi_block": "Block of Emi",
 
-  "itemGroup.cubbed_emi": "Cubbed Emi"
+  "itemGroup.cubbed_emi": "Cubbed Emi",
+
+  "cubemi.emi_block_break": "Block of Emi killed",
+  "cubemi.emi_block_step": "Block of Emi stepped on ",
+  "cubemi.emi_block_place": "Block of Emi placed ",
+  "cubemi.emi_block_hit": "Block of Emi hit",
+  "cubemi.emi_block_fall": "Block of Emi fall"
 }

@@ -3,6 +3,7 @@ package net.claymorwan.cubemi;
 import net.claymorwan.cubemi.block.ModBlocks;
 import net.claymorwan.cubemi.item.ModItemGroups;
 import net.claymorwan.cubemi.item.ModItems;
+import net.claymorwan.cubemi.sound.ModSounds;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
@@ -20,5 +21,6 @@ public class CubEmi implements ModInitializer {
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
 		ModItemGroups.registerItemGroups();
+		ModSounds.registerSounds();
 	}
 }

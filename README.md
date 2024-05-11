@@ -6,3 +6,6 @@
 You can place the block and craft it from 9 glowstones
 
 (This a joke mod don't take it seriously)
+
+### Featuring [Emily Melodiam](https://emilymelodiam.me/)
+### Made by [claymorwan](https://twitter.com/claymorwan)

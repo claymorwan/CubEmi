@@ -1,6 +1,7 @@
 package net.claymorwan.cubemi.block;
 
 import net.claymorwan.cubemi.CubEmi;
+import net.claymorwan.cubemi.sound.ModSounds;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.minecraft.block.Block;
@@ -14,7 +15,7 @@ import net.minecraft.util.Identifier;
 public class ModBlocks {
 
     public static final Block EMI_BLOCK = registerBlock("emi_block",
-            new Block(FabricBlockSettings.copyOf(Blocks.GLOWSTONE)));
+            new Block(FabricBlockSettings.copyOf(Blocks.GLOWSTONE).sounds(ModSounds.EMI_BLOCK_SOUNDS).strength(2f)));
 
     private static Block registerBlock(String name, Block block){
         registerBlockItem(name, block);
