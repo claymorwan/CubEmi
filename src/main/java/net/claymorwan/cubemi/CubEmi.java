@@ -22,5 +22,6 @@ public class CubEmi implements ModInitializer {
 		ModBlocks.registerModBlocks();
 		ModItemGroups.registerItemGroups();
 		ModSounds.registerSounds();
+		LOGGER.info("All done :3c");
 	}
 }

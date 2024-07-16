@@ -12,7 +12,7 @@ import net.minecraft.util.Identifier;
 
 public class ModItemGroups {
     public static final ItemGroup Cubbed_Emi = Registry.register(Registries.ITEM_GROUP,
-            new Identifier(CubEmi.MOD_ID, "cubbed_emi"),
+            Identifier.of(CubEmi.MOD_ID, "cubbed_emi"),
             FabricItemGroup.builder().displayName(Text.translatable("itemGroup.cubbed_emi"))
                     .icon(() -> new ItemStack(ModBlocks.EMI_BLOCK)).entries((displayContext, entries) -> {
 
@@ -22,6 +22,6 @@ public class ModItemGroups {
 
 
     public static void registerItemGroups(){
-        CubEmi.LOGGER.info("Registering ModItemGroups for " + CubEmi.MOD_ID);
+        CubEmi.LOGGER.info("Registering ModItemGroups for " + CubEmi.MOD_ID + " :3");
     }
 }

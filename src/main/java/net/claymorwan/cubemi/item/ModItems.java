@@ -13,10 +13,10 @@ public class ModItems {
 
 
     private static Item registerItem(String name, Item item) {
-        return Registry.register(Registries.ITEM, new Identifier(CubEmi.MOD_ID, name), item);
+        return Registry.register(Registries.ITEM, Identifier.of(CubEmi.MOD_ID, name), item);
     }
 
     public static void registerModItems(){
-        CubEmi.LOGGER.info("Registering ModItems for " + CubEmi.MOD_ID);
+        CubEmi.LOGGER.info("Registering ModItems for " + CubEmi.MOD_ID + " :3");
     }
 }
