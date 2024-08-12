@@ -1,11 +1,32 @@
 # CubEmi
- I put that mf png in minecraft
+
+[![](https://img.shields.io/badge/Modrinth-CubEmi-g?logo=modrinth)](https://modrinth.com/mod/cubemi)
+[![](https://img.shields.io/badge/Curseforge-CubEmi-orange?logo=curseforge)](https://www.curseforge.com/minecraft/mc-mods/cubemi)
+[![](https://img.shields.io/badge/Github-CubEmi-black?logo=github)](https://github.com/claymorwan/CubEmi)
+
+A joke mod made for a friend Vtuber with very silly stuff :3
  
 ![icon](https://github.com/claymorwan/CubEmi/assets/86072589/a7b59410-c6be-4945-9915-270d12f3dd3e)
 
-You can place the block and craft it from 9 glowstones
+# 📦 Content
+As for now, the mod include just a simple block, whatever this is
 
-(This a joke mod btw don't take it seriously)
+![The almighty Emi block](https://i.imgur.com/YDgyXak.png)
 
-### Featuring [Emily Melodiam](https://emilymelodiam.me/)
-### Made by [claymorwan](https://twitter.com/claymorwan)
+# ⬇️ Future addition
+- New tools, materials, armors
+- A new dimension
+- New entities
+- Even more when I get ideas
+
+# 🔨 Building
+
+To build from source,
+- Install Java JDK 21, the fabric API explains pretty well how to do so (note that you don't need the java JRE if you install the JDK, as it comes included with it)
+> - [Windows](https://docs.fabricmc.net/players/installing-java/windows)
+> - [MacOS](https://fabricmc.net/wiki/player:tutorials:java:mac)
+> - [Linux](https://docs.fabricmc.net/players/installing-java/linux)
+- clone the repo and open it in Intellij IDEA (you can also use Eclipse or vsc)
+- Let the IDE build and download all dependencies, you may have to reload the Gradle to download all dependencies
+- Go in the Gradle sidebar and launch the `build` process
+- Your mod should be located in the build\libs directory for Windows users and build/libs for Linux and MacOS users
