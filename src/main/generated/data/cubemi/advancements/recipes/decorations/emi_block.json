@@ -22,14 +22,13 @@
   },
   "requirements": [
     [
-      "has_glowstone",
-      "has_the_recipe"
+      "has_the_recipe",
+      "has_glowstone"
     ]
   ],
   "rewards": {
     "recipes": [
       "minecraft:emi_block"
     ]
-  },
-  "sends_telemetry_event": false
+  }
 }

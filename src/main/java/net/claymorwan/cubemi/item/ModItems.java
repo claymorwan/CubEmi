@@ -8,12 +8,13 @@ import net.minecraft.util.Identifier;
 
 public class ModItems {
 
+//    Items
 
-
-
-
-    private static Item registerItem(String name, Item item) {
-        return Registry.register(Registries.ITEM, new Identifier(CubEmi.MOD_ID, name), item);
+//    Registering Items
+    public static Item registerItem(String name, Item item) {
+        // Create identifier for the item
+        Identifier id = Identifier.of(CubEmi.MOD_ID, name);
+        return Registry.register(Registries.ITEM, id, item);
     }
 
     public static void registerModItems(){
