@@ -7,12 +7,12 @@
     }
   },
   "pattern": [
+    " # ",
     "###",
-    "###",
-    "###"
+    " # "
   ],
   "result": {
-    "item": "cubemi:emi_block"
-  },
-  "show_notification": true
+    "count": 1,
+    "id": "cubemi:emi_gem"
+  }
 }

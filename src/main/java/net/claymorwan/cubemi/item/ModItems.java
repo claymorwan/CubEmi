@@ -8,12 +8,11 @@ import net.minecraft.util.Identifier;
 
 public class ModItems {
 
+    public static Item EMI_GEM = registerItem("emi_gem", new Item(new Item.Settings()));
 
-
-
-
-    private static Item registerItem(String name, Item item) {
-        return Registry.register(Registries.ITEM, Identifier.of(CubEmi.MOD_ID, name), item);
+    public static Item registerItem(String name, Item item) {
+        Identifier id = Identifier.of(CubEmi.MOD_ID, name);
+        return Registry.register(Registries.ITEM, id, item);
     }
 
     public static void registerModItems(){

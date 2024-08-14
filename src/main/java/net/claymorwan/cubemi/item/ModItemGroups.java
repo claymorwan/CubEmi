@@ -16,6 +16,8 @@ public class ModItemGroups {
             FabricItemGroup.builder().displayName(Text.translatable("itemGroup.cubbed_emi"))
                     .icon(() -> new ItemStack(ModBlocks.EMI_BLOCK)).entries((displayContext, entries) -> {
 
+                        entries.add(ModItems.EMI_GEM);
+
                         entries.add(ModBlocks.EMI_BLOCK);
 
                     }).build());

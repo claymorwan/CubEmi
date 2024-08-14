@@ -1,6 +1,7 @@
 package net.claymorwan.cubemi.datagen;
 
 import net.claymorwan.cubemi.block.ModBlocks;
+import net.claymorwan.cubemi.item.ModItems;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricRecipeProvider;
 import net.minecraft.data.server.recipe.RecipeExporter;
@@ -21,12 +22,21 @@ public class ModRecipeProvider extends FabricRecipeProvider {
     @Override
     public void generate(RecipeExporter exporter) {
 
+        // Emi block
         ShapedRecipeJsonBuilder.create(RecipeCategory.DECORATIONS, ModBlocks.EMI_BLOCK, 1)
+                .pattern("##")
+                .pattern("##")
+                .input('#', ModItems.EMI_GEM)
+                .criterion(hasItem(ModItems.EMI_GEM), conditionsFromItem(ModItems.EMI_GEM))
+                .offerTo(exporter, Identifier.of(getRecipeName(ModBlocks.EMI_BLOCK)));
+
+        // Emi gem
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.EMI_GEM, 1)
+                .pattern(" # ")
                 .pattern("###")
-                .pattern("###")
-                .pattern("###")
+                .pattern(" # ")
                 .input('#', Items.GLOWSTONE)
                 .criterion(hasItem(Items.GLOWSTONE), conditionsFromItem(Items.GLOWSTONE))
-                .offerTo(exporter, Identifier.of(getRecipeName(ModBlocks.EMI_BLOCK)));
+                .offerTo(exporter, Identifier.of(getRecipeName(ModItems.EMI_GEM)));
     }
 }
