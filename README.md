@@ -28,5 +28,9 @@ To build from source,
 > - [Linux](https://docs.fabricmc.net/players/installing-java/linux)
 - clone the repo and open it in Intellij IDEA (you can also use Eclipse or vsc)
 - Let the IDE build and download all dependencies, you may have to reload the Gradle to download all dependencies
+
+![image](https://github.com/user-attachments/assets/6a65e9d3-fe5d-4734-89ce-99bbb11d4c83)
 - Go in the Gradle sidebar and launch the `build` process
+
+![image](https://github.com/user-attachments/assets/a861a068-cf1a-407b-bbaa-56e2b5d1880c)
 - Your mod should be located in the build\libs directory for Windows users and build/libs for Linux and MacOS users
