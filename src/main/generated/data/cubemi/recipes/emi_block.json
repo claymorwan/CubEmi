@@ -3,13 +3,12 @@
   "category": "misc",
   "key": {
     "#": {
-      "item": "minecraft:glowstone"
+      "item": "cubemi:emi_gem"
     }
   },
   "pattern": [
-    "###",
-    "###",
-    "###"
+    "##",
+    "##"
   ],
   "result": {
     "item": "cubemi:emi_block"

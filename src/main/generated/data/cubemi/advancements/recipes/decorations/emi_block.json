@@ -1,12 +1,12 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_glowstone": {
+    "has_emi_gem": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecraft:glowstone"
+              "cubemi:emi_gem"
             ]
           }
         ]
@@ -23,7 +23,7 @@
   "requirements": [
     [
       "has_the_recipe",
-      "has_glowstone"
+      "has_emi_gem"
     ]
   ],
   "rewards": {
