@@ -1,8 +1,9 @@
 # CubEmi
 
-[![](https://img.shields.io/badge/Modrinth-CubEmi-g?logo=modrinth)](https://modrinth.com/mod/cubemi)
-[![](https://img.shields.io/badge/Curseforge-CubEmi-orange?logo=curseforge)](https://www.curseforge.com/minecraft/mc-mods/cubemi)
-[![](https://img.shields.io/badge/Github-CubEmi-black?logo=github)](https://github.com/claymorwan/CubEmi)
+[<img alt="modrinth" height="56" src="https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/cozy/available/github_vector.svg">](https://github.com/claymorwan/CubEmi)
+[<img alt="modrinth" height="56" src="https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/cozy/available/modrinth_vector.svg">](https://modrinth.com/mod/cubemi)
+[<img alt="curseforge" height="56" src="https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/cozy/available/curseforge_vector.svg">](https://www.curseforge.com/minecraft/mc-mods/cubemi) 
+[<img alt="fabric" height="56" src="https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/cozy/supported/fabric_vector.svg">](https://fabricmc.net/)
 
 A joke mod made for a friend Vtuber with very silly stuff :3
  
