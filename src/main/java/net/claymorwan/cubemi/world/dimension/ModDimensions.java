@@ -1,4 +1,4 @@
-package net.claymorwan.cubemi.world;
+package net.claymorwan.cubemi.world.dimension;
 
 import net.claymorwan.cubemi.CubEmi;
 import net.minecraft.registry.Registerable;
