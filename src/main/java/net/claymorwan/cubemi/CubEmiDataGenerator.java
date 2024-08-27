@@ -1,7 +1,8 @@
 package net.claymorwan.cubemi;
 
 import net.claymorwan.cubemi.datagen.*;
-import net.claymorwan.cubemi.world.ModDimensions;
+import net.claymorwan.cubemi.world.biome.ModBiomes;
+import net.claymorwan.cubemi.world.dimension.ModDimensions;
 import net.fabricmc.fabric.api.datagen.v1.DataGeneratorEntrypoint;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataGenerator;
 import net.minecraft.registry.RegistryBuilder;
@@ -22,6 +23,7 @@ public class CubEmiDataGenerator implements DataGeneratorEntrypoint {
 
 	@Override
 	public void buildRegistry(RegistryBuilder registryBuilder) {
+		registryBuilder.addRegistry(RegistryKeys.BIOME, ModBiomes::bootstrap);
 		registryBuilder.addRegistry(RegistryKeys.DIMENSION_TYPE, ModDimensions::bootstrapType);
 	}
 }

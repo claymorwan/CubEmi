@@ -15,7 +15,11 @@ public class ModBlocks {
 
 //    Blocks
     public static final Block EMI_BLOCK = registerBlock("emi_block",
-            new Block(FabricBlockSettings.copyOf(Blocks.GLOWSTONE).sounds(ModSounds.EMI_BLOCK_SOUNDS).strength(2f)), true);
+            new Block(FabricBlockSettings
+                    .copyOf(Blocks.GLOWSTONE)
+                    .sounds(ModSounds.EMI_BLOCK_SOUNDS)
+                    .strength(2f)),
+        true);
 
 //    Registering blocks :3
     private static Block registerBlock(String name, Block block, boolean shouldRegisterItem) {

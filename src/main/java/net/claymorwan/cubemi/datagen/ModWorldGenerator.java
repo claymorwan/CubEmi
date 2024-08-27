@@ -14,11 +14,12 @@ public class ModWorldGenerator extends FabricDynamicRegistryProvider {
 
     @Override
     protected void configure(RegistryWrapper.WrapperLookup registries, Entries entries) {
+        entries.addAll(registries.getWrapperOrThrow(RegistryKeys.BIOME));
         entries.addAll(registries.getWrapperOrThrow(RegistryKeys.DIMENSION_TYPE));
     }
 
     @Override
     public String getName() {
-        return "Worl Gen";
+        return "World Gen";
     }
 }

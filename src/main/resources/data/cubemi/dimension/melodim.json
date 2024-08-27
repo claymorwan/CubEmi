@@ -19,7 +19,7 @@
           }
         },
         {
-          "biome": "minecraft:plains",
+          "biome": "cubemi:melo_biome",
           "parameters": {
             "temperature": 0,
             "humidity": 0,
