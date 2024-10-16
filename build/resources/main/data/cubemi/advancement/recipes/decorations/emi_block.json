@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_emi_gem": {
+      "conditions": {
+        "items": [
+          {
+            "items": "cubemi:emi_gem"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:emi_block"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_emi_gem"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:emi_block"
+    ]
+  }
+}

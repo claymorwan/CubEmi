@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "cubemi",
+	"version": "1.1.0-1.21",
+	"name": "CubEmi",
+	"description": "I am bored, featuring Emily Melodiam",
+	"authors": [
+		"claymorwan"
+	],
+	"contact": {
+		"homepage": "https://github.com/claymorwan/CubEmi",
+		"sources": "https://github.com/claymorwan/CubEmi"
+	},
+	"license": "MIT",
+	"icon": "assets/cubemi/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.claymorwan.cubemi.CubEmi"
+		],
+		"client": [
+			"net.claymorwan.cubemi.CubEmiClient"
+		],
+		"fabric-datagen": [
+			"net.claymorwan.cubemi.CubEmiDataGenerator"
+		]
+	},
+	"mixins": [
+		"cubemi.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.11",
+		"minecraft": "~1.21",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}

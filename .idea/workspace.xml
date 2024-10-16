@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c6e949aa-f0a6-47fa-adbf-600e947e2130" name="Changes" comment="forgor">
+      <change beforePath="$PROJECT_DIR$/src/main/generated/.cache/3cb49568d10aa9922c188fda97a2a99ffbf3291c" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/generated/.cache/3cb49568d10aa9922c188fda97a2a99ffbf3291c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/generated/.cache/858310925da33d149b3d088567ae8732aec34f54" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/generated/.cache/858310925da33d149b3d088567ae8732aec34f54" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/generated/.cache/d5c5d8b5669ac6bba11c69105cc74796f16b0cbf" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/generated/.cache/d5c5d8b5669ac6bba11c69105cc74796f16b0cbf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/generated/.cache/e4a029ed364bde35f002c756b975242b4c30c4b1" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/generated/.cache/e4a029ed364bde35f002c756b975242b4c30c4b1" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="CubEmi-1.21" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;claymorwan&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;git@github.com:claymorwan/CubEmi.git&quot;,
+    &quot;accountId&quot;: &quot;17237a0e-7d64-4cb9-a46f-9f45166649cf&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 8
+}</component>
+  <component name="ProjectId" id="2kePvMOoChaY3PTtk4NeCkMBBAq" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Data Generation.executor": "Run",
+    "Application.Minecraft Client.executor": "Debug",
+    "Gradle.Build CubEmi-1.21.executor": "Run",
+    "Gradle.CubEmi-1.21 [:net.fabricmc.devlaunchinjector.Main.main()].executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "1.21",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/mnt/media/Programmation/Java-Kotlin/Mc mod/CubEmi/CubEmi-1.21/src/main/resources/assets/cubemi/textures/item",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "editor.preferences.fonts.default",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources/assets/cubemi/textures/item" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Minecraft Client">
+    <configuration default="true" type="JetRunConfigurationType">
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Data Generation" />
+      <item itemvalue="Application.Minecraft Client" />
+      <item itemvalue="Application.Minecraft Server" />
+    </list>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-28b599e66164-intellij.indexing.shared.core-IU-242.23339.11" />
+        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-IU-242.23339.11" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c6e949aa-f0a6-47fa-adbf-600e947e2130" name="Changes" comment="" />
+      <created>1723641299752</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1723641299752</updated>
+      <workItem from="1723641302170" duration="424000" />
+      <workItem from="1723987318345" duration="2243000" />
+      <workItem from="1723989633702" duration="923000" />
+      <workItem from="1724713514761" duration="4845000" />
+      <workItem from="1724757641390" duration="2631000" />
+      <workItem from="1724760348917" duration="130000" />
+      <workItem from="1726442276309" duration="187000" />
+      <workItem from="1727805593554" duration="124000" />
+    </task>
+    <task id="LOCAL-00001" summary="Dimensions">
+      <option name="closed" value="true" />
+      <created>1723990484357</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1723990484357</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Biomes and shi but not done">
+      <option name="closed" value="true" />
+      <created>1724718272154</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1724718272154</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Light block yayyy">
+      <option name="closed" value="true" />
+      <created>1724760268166</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1724760268166</updated>
+    </task>
+    <task id="LOCAL-00004" summary="texutres">
+      <option name="closed" value="true" />
+      <created>1724760470989</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1724760470989</updated>
+    </task>
+    <task id="LOCAL-00005" summary="forgor">
+      <option name="closed" value="true" />
+      <created>1726442428923</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1726442428923</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Dimensions" />
+    <MESSAGE value="Biomes and shi but not done" />
+    <MESSAGE value="Light block yayyy" />
+    <MESSAGE value="texutres" />
+    <MESSAGE value="forgor" />
+    <option name="LAST_COMMIT_MESSAGE" value="forgor" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

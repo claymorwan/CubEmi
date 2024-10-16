@@ -1,0 +1,6 @@
+/locate structure minecraft:trial_chambers
+/tp @s 320 ~ 144
+/locate biome cubemi:melo_biome
+/tp @s -279 132 328
+/time set day
+/time set night

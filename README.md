@@ -10,7 +10,7 @@ A joke mod made for a friend Vtuber with very silly stuff :3
 ![icon](https://github.com/claymorwan/CubEmi/assets/86072589/a7b59410-c6be-4945-9915-270d12f3dd3e)
 
 # 📦 Content
-As for now, the mod include just a simple block, whatever this is
+As for now, the mod include just a simple block, whatever this is:
 
 ![The almighty Emi block](https://i.imgur.com/YDgyXak.png)
 

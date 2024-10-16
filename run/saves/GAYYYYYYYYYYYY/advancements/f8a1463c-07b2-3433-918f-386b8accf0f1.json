@@ -1,0 +1,27 @@
+{
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "unlock_right_away": "2024-08-27 11:52:40 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/cauldron": {
+    "criteria": {
+      "has_water_bucket": "2024-08-27 11:52:40 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:plains": "2024-08-27 11:52:41 +0000"
+    },
+    "done": false
+  },
+  "cubemi:recipes/decorations/emi_block": {
+    "criteria": {
+      "has_emi_gem": "2024-08-27 11:52:40 +0000"
+    },
+    "done": true
+  },
+  "DataVersion": 3953
+}

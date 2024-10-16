@@ -1,0 +1,13 @@
+{
+  "item.cubemi.emi_gem": "Shiny rock",
+
+  "block.cubemi.emi_block": "Block of Emi",
+
+  "itemGroup.cubbed_emi": "Cubbed Emi",
+
+  "cubemi.emi_block_break": "the cutie has fallen",
+  "cubemi.emi_block_step": "Block of Emi stepped on ",
+  "cubemi.emi_block_place": "Block of Emi placed ",
+  "cubemi.emi_block_hit": "why hit the cutie",
+  "cubemi.emi_block_fall": "going to the back rooms"
+}

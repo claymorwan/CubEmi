@@ -1,0 +1,32 @@
+{
+  "emi_block_break": {
+    "subtitles": "cubemi.emi_block_break",
+    "sounds": [
+      "cubemi:emi_block_break"
+    ]
+  },
+  "emi_block_step": {
+    "subtitles": "cubemi.emi_block_step",
+    "sounds": [
+      "cubemi:emi_block_step"
+    ]
+  },
+  "emi_block_place": {
+    "subtitles": "cubemi.emi_block_place",
+    "sounds": [
+      "cubemi:emi_block_place"
+    ]
+  },
+  "emi_block_hit": {
+    "subtitles": "cubemi.emi_block_hit",
+    "sounds": [
+      "cubemi:emi_block_hit"
+    ]
+  },
+  "emi_block_fall": {
+    "subtitles": "cubemi.emi_block_fall",
+    "sounds": [
+      "cubemi:emi_block_fall"
+    ]
+  }
+}
